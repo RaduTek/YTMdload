@@ -31,6 +31,8 @@ def clean_filename(filename:str, replace:chr='_'):
 # URL = 'PLLLy4XORhHbkiinUreH76OWm7ny7z89gS'
 #URL = 'OLAK5uy_lvGn6U_oFqZA-RyRQRyKAlb4ysg5bAO5U'
 
+# CONFIG IS HERE ================================
+
 out_path = 'D:/music'
 out_format = 'opus'
 
@@ -38,6 +40,8 @@ do_dl_archive = True
 dl_archive_file = out_path + '/Downloaded.txt'
 
 do_lyrics = True
+
+# CONFIG ENDS HERE ==============================
 
 ytdl_opts = {
     'format': out_format + '/bestaudio/best',
